@@ -35,4 +35,3 @@ public class FirstTest {
         assertEquals("EMC", actualResult);
     }
 }
-5

@@ -21,7 +21,7 @@ public class FirstTest {
 
     @Test
     public void tmcTest() {
-        String actualResult = trialCode(3);
+        String actualResult = trialCode(4);
         assertEquals("FAIL", actualResult);
     }
     @Test

@@ -18,7 +18,6 @@ public class TheSecondTest extends BaseTest {
         WebDriverWait wait = new WebDriverWait(browser, Duration.ofSeconds(10));
         String errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(
                 By.cssSelector(".error-message-container.error"))).getText();
-
         assertEquals(errorMessage, "Epic sadface: Username and password do not match any user in this service");
     }
 

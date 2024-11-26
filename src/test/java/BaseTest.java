@@ -21,6 +21,8 @@ public class BaseTest {
 
     @AfterMethod
     public void close() {
-        browser.quit();
+        if (browser != null) {
+            browser.quit();
+        }
     }
 }
